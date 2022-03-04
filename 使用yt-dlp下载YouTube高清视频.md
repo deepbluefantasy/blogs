@@ -62,7 +62,7 @@ $ yt-dlp -S "ext"
 
 ## 4. 使用脚本下载视频
 
-使用[此脚本](使用yt-dlp下载YouTube高清视频.assets\下载YouTube视频.bat)进行下载，脚本中将保存路径设置为D:\user\Downloads\YouTube，也可自行设置。脚本将自动下载最高清的mp4视频。
+使用[此脚本](使用yt-dlp下载YouTube高清视频.assets/下载YouTube视频.bat)进行下载，脚本中将保存路径设置为D:\user\Downloads\YouTube，也可自行设置。脚本将自动下载最高清的mp4视频。
 
 以下是脚本源码，有基础的同学也可以自行修改功能。其中`::`是全行注释符号，被注释的命令是要求用户在cmd窗口手动输入保存路径和下载视频编号的。注意，由于脚本中含有中文，因此文本格式需要保存为ANSI，否则可能出现乱码。
 
