@@ -33,8 +33,8 @@ if errorlevel 1 goto :download
 
 ::Download the best mp4 video available, or the best video if no mp4 available
 ::下载最清晰的MP4格式视频+音频，如果没有MP4格式则下载其他格式的最清晰视频
-::yt-dlp -f "bv*[ext=mp4]+ba[ext=m4a]/b[ext=mp4] / bv*+ba/b" %input% --proxy socks5://127.0.0.1:10808
+yt-dlp -f "bv*[ext=mp4]+ba[ext=m4a]/b[ext=mp4] / bv*+ba/b" %input% --proxy socks5://127.0.0.1:10808
 ::下载视频，优先级为分辨率>可扩展性，在分辨率不同时下载分辨率最高的视频，分辨率相同时下载扩展性最强的视频(mp4>webm>flv>other)
-yt-dlp -S quality,ext %input% --proxy socks5://127.0.0.1:10808
+::yt-dlp -S quality,ext %input% --proxy socks5://127.0.0.1:10808
 
 goto :download
